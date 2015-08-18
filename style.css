@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+}
+
+
+.mainCalc {
+	width: 280px;
+    height: 600px;
+    margin: auto;
+
+}
+
+button {
+	height: 60px;
+	width: 60px;
+	background-color: lightblue;
+	font: bold;
+	font-size: 25px;
+
+}
+
+#sumbox {
+	width:188px;
+	height:65px;
+	border:1px
+	solid #000;
+
+}
+
+#minus {
+	background-color: red;
+
+}
+
+#C {
+	background-color: yellow;
+}
+
+#plus {
+	background-color: purple;
+}
+
+#divide {
+	background-color: orange;
+}
+
+#multiply {
+	background-color: gold;
+}
