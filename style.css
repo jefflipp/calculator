@@ -1,12 +1,9 @@
-body {
-	text-align: center;
-}
-
 
 .mainCalc {
 	width: 280px;
     height: 600px;
     margin: auto;
+    border: 2px black;
 
 }
 
@@ -46,4 +43,20 @@ button {
 
 #multiply {
 	background-color: gold;
+}
+
+.output {
+	height: 60px;
+	width: 120px;
+	font-size: 25px;
+	border: 2px;
+	border-color: black;
+	background-color: black;
+	color: white;
+	text-align: center;
+	float: right;
+	margin-top: 10px;
+
+
+
 }
