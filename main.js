@@ -10,6 +10,9 @@ function createArray() {
 	console.log(this.innerHTML);
 	array.push(this.innerHTML);
 	console.log(array);
+
+	div.innerHTML += this.innerHTML;
+
 	if (this.innerHTML === "=") {
 			array.pop();
 			convert = array.join("");
